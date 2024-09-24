@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .sidebar {
   background-color: #004080; /* Bleu foncé */
   width:  13rem;
@@ -5,7 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
+  padding: 0 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   color: #fff;
   position: absolute;
