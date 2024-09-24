@@ -1,0 +1,45 @@
+.body-home {
+  background-color: #f0f2f5; /* Gris clair pour le fond */
+position: relative;
+}
+
+.body-home h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* margin-left: 25rem; */
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card-content {
+  height: 150px;
+  background-color: #e0e0e0; /* Gris clair pour le contenu placeholder */
+  border-radius: 4px;
+}
+.route-page{
+  margin-left: 20rem;
+  width: 2rem;
+  font-size: 2rem;
+}
+.main-content{
+  margin-left: 18rem;
+  width: 20rem;
+}
