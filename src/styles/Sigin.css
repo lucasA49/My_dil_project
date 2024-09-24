@@ -1,0 +1,86 @@
+/* Conteneur principal centré */
+.main-container { 
+  position: absolute;
+  top: 7rem;
+  left: 30%;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  /* background-color: #f0f4f7; */
+  padding: 0 2rem;
+}
+
+/* Boîte contenant le formulaire */
+.form-container {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Style pour l'animation Rive */
+.rive-animation {
+  margin-bottom: 1.5rem;
+}
+
+/* Titre du formulaire */
+.form-title {
+  margin-bottom: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Style pour les champs de saisie (email et password) */
+.text-field {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* Style pour le bouton de soumission */
+.submit-button {
+  background-color: #1976d2;
+  color: white;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-transform: none;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #115293;
+}
+
+/* Lien de récupération de mot de passe */
+.link {
+  margin-top: 0.5rem;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Texte sous le formulaire pour inscription */
+.signup-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsivité pour petits écrans */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 1.5rem;
+    width: 100%;
+  }
+}
