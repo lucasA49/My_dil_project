@@ -1,0 +1,17 @@
+form {
+    background-color: antiquewhite;
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+.form-titles {
+    color: black;
+    text-align: left;
+}
+
+#project_form_submit {
+    flex-wrap: wrap;
+}
