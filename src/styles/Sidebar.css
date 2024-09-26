@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .sidebar {
   background-color: #004080; /* Bleu foncé */
   width:  13rem;
@@ -29,6 +28,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  margin-top:1rem;
 }
 
 .sidebar-user {
@@ -82,6 +82,6 @@
 }
 
 .footer-logo {
-  width: 30px;
-  height: 30px;
+  width: 4rem;
+  height: 4rem;
 }
