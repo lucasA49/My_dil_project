@@ -1,10 +1,9 @@
-import BodyHome from '../components/Bodyhome';
-import Sidebar from '../components/Sidebar';
+import Project___Form from '../components/Project___Form';
 
 function Project_Form() {
     return (
         <>
-            <Project_Form />
+            <Project___Form />
         </>
     )
 }

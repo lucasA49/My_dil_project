@@ -14,7 +14,7 @@ function App() {
             {/* Routes définies ici */}
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="connexion" element={<Connexion />} />
+                <Route path="/connexion" element={<Connexion />} />
                 <Route path="/project_form" element={<Project_Form />} />
             </Routes>
 
