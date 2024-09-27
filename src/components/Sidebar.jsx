@@ -1,5 +1,5 @@
-import { FaHome, FaFolderOpen, FaPlusCircle, FaSignInAlt, FaSearch } from 'react-icons/fa'; 
-import '../styles/Sidebar.css'; 
+import { FaHome, FaFolderOpen, FaPlusCircle, FaSignInAlt, FaSearch } from 'react-icons/fa';
+import '../styles/Sidebar.css';
 import EPSI from "../assets/epsi.png"
 import WIS from "../assets/wis.png"
 import PROFIL from "../assets/capybara.png"
@@ -18,8 +18,10 @@ const Sidebar = () => {
       </div>
       <div className="sidebar-menu">
         <div className="menu-item">
-          <FaHome className="icon" />
-          <span>Accueil</span>
+          <a href="/">
+            <FaHome className="icon" />
+            <span>Accueil</span>
+          </a>
         </div>
         <div className="menu-item">
           <FaSearch className="icon" />
@@ -30,8 +32,10 @@ const Sidebar = () => {
           <span>Mes projets</span>
         </div>
         <div className="menu-item">
-          <FaPlusCircle className="icon" />
-          <span>Créer un projet</span>
+          <a href="/project_form">
+            <FaPlusCircle className="icon" />
+            <span>Créer un projet</span>
+          </a>
         </div>
       </div>
       <div className="sidebar-footer">
