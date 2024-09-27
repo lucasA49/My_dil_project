@@ -1,6 +1,6 @@
 import '../styles/Project_Form.css';
 
-const P_Form = () => {
+const Project_Form = () => {
     return (
         <div className="main-content">
             <div className="formpage">
@@ -28,4 +28,4 @@ const P_Form = () => {
 };
 
 
-export default P_Form;
+export default Project_Form;
